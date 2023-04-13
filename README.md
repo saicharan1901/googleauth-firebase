@@ -1,3 +1,43 @@
+# Next.js + Tailwind + Firebase with Google Auth and Firestore Integration
+
+This is a starter repository for a web application using Next.js for server-side rendering, Tailwind CSS for styling, and Firebase for backend functionality, including Google authentication and storing user data on Cloud Firestore.
+
+## Installation
+
+To get started, first clone the repository:
+
+```
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+
+Then, install the dependencies:
+
+```
+npm install
+```
+
+
+You will also need to set up a Firebase project and configure it with your Google OAuth credentials. See the Firebase documentation for instructions on how to do this.
+
+Once you have set up your Firebase project, create a `.env.local` file in the root of your project and add the following environment variables, replacing the values with your own:
+
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=<your-api-key>
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=<your-auth-domain>
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=<your-project-id>
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=<your-storage-bucket>
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=<your-messaging-sender-id>
+NEXT_PUBLIC_FIREBASE_APP_ID=<your-app-id>
+FIREBASE_CLIENT_EMAIL=<your-client-email>
+FIREBASE_PRIVATE_KEY=<your-private-key>
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=<your-google-client-id>
+```
+
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
